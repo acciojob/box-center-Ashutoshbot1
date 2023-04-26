@@ -1,1 +1,24 @@
 /*  your css code here. If applicable */
+
+div{
+	border:2px solid black;
+	background:lightblue;
+	width:300px;
+	height:300px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	
+}
+
+html{
+	border: 2px solid;
+	width:600px;
+	height:600px;
+
+	position:relative;
+}
